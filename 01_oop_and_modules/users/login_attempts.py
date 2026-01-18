@@ -1,5 +1,3 @@
-#9.5 page 167
-
 class User:
     """A simple model of a user."""
 

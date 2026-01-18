@@ -1,5 +1,3 @@
-#9.12
-
 from admin import Admin
 
 new_admin = Admin("Ethan", "Hunt", 45)
