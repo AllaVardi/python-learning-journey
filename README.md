@@ -15,11 +15,17 @@ python-learning-journey/
 │       ├── admin.py
 │       ├── demo.py
 │       └── login_attempts.py
-└── 02_files_and_exceptions/
-    ├── log_reader.py
-    ├── file_writer.py
-    ├── json_writer.py
-    └── json_reader.py
+├── 02_files_and_exceptions/
+│   ├── file_writer.py
+│   ├── json_reader.py
+│   ├── json_writer.py
+│   ├── log_reader.py
+│   └── examples/
+│       ├── numbers.json
+│       ├── output.txt
+│       └── sample_log.txt
+└── README.md
+    
 ```
 ## 01_oop_and_modules / users
 
@@ -33,11 +39,14 @@ Start with `demo.py` to see how the components interact.
 
 ## 02_files_and_exceptions
 
-This section focuses on working with files and structured data in Python, including:
+This section focuses on working with files and exceptions in Python, including:
 
-- reading and writing text files
-- handling missing files and basic exceptions
-- serializing and deserializing JSON data
-- separating file I/O logic from application logic
+- reading and writing text files using `pathlib`
+- serializing and deserializing data with JSON
+- handling file paths and generated outputs
+- separating executable code from example data
 
 These patterns are foundational for automation, log processing, and security tooling.
+
+Generated files are stored in the `examples/` subfolder.
+
