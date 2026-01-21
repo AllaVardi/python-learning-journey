@@ -24,6 +24,8 @@ python-learning-journey/
 │       ├── numbers.json
 │       ├── output.txt
 │       └── sample_log.txt
+├── 03_functions_and_interfaces/
+│   └── function_interfaces.py
 └── README.md
     
 ```
@@ -50,3 +52,12 @@ These patterns are foundational for automation, log processing, and security too
 
 Generated files are stored in the `examples/` subfolder.
 
+## 03_functions_and_interfaces
+
+This section focuses on function design and flexible interfaces in Python, including:
+
+- defining clear function interfaces
+- using *args for variable positional arguments
+- using **kwargs for flexible keyword arguments
+- building extensible data structures with functions
+- using `if __name__ == "__main__"` as an execution entry point
